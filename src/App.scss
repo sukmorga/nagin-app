@@ -204,9 +204,9 @@ $color8: #8B8E8F;
             }
 
             &-checked {
+              background: linear-gradient(225deg, rgb(2, 255, 226), rgb(29, 254, 1), rgb(242, 255, 6));
               background: -webkit-linear-gradient(225deg, rgb(2, 255, 226), rgb(29, 254, 1), rgb(242, 255, 6));
               background: -moz-linear-gradient(225deg, rgb(2, 255, 226), rgb(29, 254, 1), rgb(242, 255, 6));
-              background: linear-gradient(225deg, rgb(2, 255, 226), rgb(29, 254, 1), rgb(242, 255, 6));
             }
 
             input {
@@ -292,6 +292,11 @@ $color8: #8B8E8F;
             }
 
             @media (max-width: 690px) {
+              font-size: 17px;
+              line-height: 140%;
+            }
+
+            @media (max-width: 480px) {
               margin-right: 0;
               font-size: 17px;
               line-height: 140%;
