@@ -6,9 +6,9 @@ function App() {
     <div className="App">
       <section className='calculator'>
         <div className='container'>
-          <div className='section-title'>
+          <h2 className='section-title'>
             Подключите PRO-версию Jivo с выгодой
-          </div>
+          </h2>
           <div className='section-title-mobile'>
             Переходите на<br /> Про-версию Jivo с выгодой
           </div>
